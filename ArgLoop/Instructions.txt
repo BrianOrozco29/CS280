@@ -1,0 +1,16 @@
+CS280 Programming Assignment 0
+Fall 2017
+Due Sept 18 before midnight
+This assignment is designed to help get you used to the Vocareum system. It will be graded but
+will be assigned a very small percentage of the overall grade; it is mostly intended to get you
+going on using Vocareum.
+Write a C++ program that loops through all of the command line arguments that are passed to
+the program. For each argument, you are to test to see if there is a file with that name. [you test
+by attempting to open the file and checking to see if the open was successful]. Your program
+should do the following
+1. If there is NOT a file with the name given in the argument, print, on a single line, the
+name of the file, a space, and the string FILE NOT FOUND
+2. If there is a file with the name given in the argument, print, on a single line, the name of
+the file, a space, and an integer representing the number of characters in the file.
+You will note that there should be one line of output for each command line argument that is
+specified.
